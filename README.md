@@ -65,3 +65,46 @@ Startup War Room is an AI boardroom powered entirely by a locally running Gemma 
    ```
 
 The application will be accessible at `http://localhost:5173`.
+
+## Why Local Gemma?
+
+Startup War Room runs entirely on a locally hosted Gemma model through LM Studio.
+
+Benefits:
+
+- No cloud dependency
+- Lower inference cost
+- Privacy-preserving analysis
+- Offline operation
+- Demonstrates practical deployment of Gemma in real-world decision support systems
+
+User Idea
+    │
+    ▼
++------------------+
+| Investor Agent   |
++------------------+
+
++------------------+
+| CTO Agent        |
++------------------+
+
++------------------+
+| Customer Agent   |
++------------------+
+
++------------------+
+| Competitor Agent |
++------------------+
+
++------------------+
+| Growth Agent     |
++------------------+
+          │
+          ▼
++------------------+
+| Final Board      |
++------------------+
+          │
+          ▼
+Board Decision
